@@ -1,0 +1,16 @@
+inherit_gem:
+  rubocop-rails_config:
+    - config/rails.yml
+    
+AllCops:
+  TargetRubyVersion: 2.6.4
+  Exclude:
+    - 'node_modules/**/*'
+  
+Layout/IndentationConsistency:
+  EnforcedStyle: normal
+  
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+require: rubocop-performance
