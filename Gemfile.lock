@@ -142,8 +142,6 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       terminal-table (>= 1.5.1)
     jaro_winkler (1.5.3)
-    jbuilder (2.9.1)
-      activesupport (>= 4.2.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -184,7 +182,7 @@ GEM
       pry (>= 0.10.4)
     public_suffix (3.1.1)
     puma (3.12.1)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -346,7 +344,6 @@ DEPENDENCIES
   guard-bundler
   guard-rubocop
   i18n-tasks
-  jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   pry
